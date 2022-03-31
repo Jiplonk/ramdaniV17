@@ -1,7 +1,7 @@
 {
-  "name": "ramdani official",
+  "name": "RamdaniOfficial",
   "version": "0.0.1",
-  "description": "© Creator 𝘽𝙔 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️",
+  "description": "© Creator by Ramdani official",
   "main": "main.js",
   "directories": {
     "lib": "lib"
@@ -17,7 +17,7 @@
     "whatsapp",
     "bot"
   ],
-  "author": "𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️",
+  "author": "Ramdani Official",
   "license": "ISC",
   "dependencies": {
   "@adiwajshing/baileys": "^3.5.2",

